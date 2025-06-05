@@ -50,7 +50,7 @@ class _ECGScreenState extends State<ECGScreen> {
   }
 
   double _simularECG(double t) {
-    double periodo = 60 / bpm;
+    double periodo = 30 / bpm;
     double fase = t % periodo;
 
     if (fase < 0.1) {
@@ -82,7 +82,7 @@ class _ECGScreenState extends State<ECGScreen> {
           LineChartBarData(
             spots: ecgData,
             isCurved: false,
-            color: Colors.greenAccent,
+            color: const Color.fromARGB(255,2,230,120),
             barWidth: 2.5,
             dotData: FlDotData(show: false),
             belowBarData: BarAreaData(show: false),
