@@ -1,5 +1,12 @@
-App pare visualizar señal ECG en tu celular
-- Fase 1: solo señal simulada
-- Fase 2: señal obtenida de prueba real en vivo
+ECG Simulado - App Flutter
 
-Fase actual: 1
+Esta aplicación simula una señal de ECG (electrocardiograma) en tiempo real utilizando Flutter. La interfaz está inspirada en monitores médicos reales, con una cuadrícula verde sobre fondo negro y una señal ECG estilizada que incluye los componentes P, QRS y T.
+
+Características
+•⁠  ⁠Visualización animada de señal ECG en tiempo real
+•⁠  ⁠Fondo con cuadrícula médica
+•⁠  ⁠Señal verde fluorescente al estilo de un monitor cardíaco
+•⁠  ⁠Indicador de frecuencia cardíaca (BPM)
+•⁠  ⁠Botón de pausa/reanudación
+
+La señal es completamente simulada con funciones matemáticas. No se requiere sensor externo para su funcionamiento.
